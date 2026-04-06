@@ -1,5 +1,8 @@
 pipeline {
     agent {
+  // set K8s agent. namespace and secrets are defined
+  // by the K8s cluster running Jenkins pipeline
+  // defined as 'pipeline script from scm' in pipeline definition
   kubernetes {
     namespace 'jenkins'
         defaultContainer 'python'
