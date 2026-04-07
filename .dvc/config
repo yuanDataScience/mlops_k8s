@@ -1,0 +1,7 @@
+[core]
+    remote = storage
+['remote "storage"']
+    url = s3://dvc-data
+    endpointurl = http://database.local
+    access_key_id = minioadmin
+    secret_access_key = minioadmin123
