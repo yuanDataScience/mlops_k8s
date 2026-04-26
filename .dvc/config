@@ -2,4 +2,4 @@
     remote = storage
 ['remote "storage"']
     url = s3://dvc-data
-    endpointurl = http://10.10.10.35:30900
+    endpointurl = http://10.10.10.5:30900
